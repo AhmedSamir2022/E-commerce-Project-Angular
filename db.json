@@ -1,0 +1,148 @@
+{
+  "seller": [
+    {
+      "name": "sam sidhu",
+      "email": "sam@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "peter",
+      "password": "abc@123",
+      "email": "peter@test.com",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "password": "abc@123",
+      "email": "bruce@test.com",
+      "id": 4
+    },
+    {
+      "name": "anil",
+      "password": "abc123",
+      "email": "anil@test.com",
+      "id": 5
+    },
+    {
+      "name": "alena",
+      "password": "abc123",
+      "email": "alena@test.com",
+      "id": 6
+    },
+    {
+      "name": "sam",
+      "password": "abc@123",
+      "email": "sam@test.com",
+      "id": 7
+    },
+    {
+      "name": "bhasker",
+      "password": "abc@123",
+      "email": "bhasker@test.com",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone X",
+      "price": 699.99,
+      "category": "Electronics",
+      "color": "Black",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&auto=format",
+      "description": "Latest smartphone with advanced features and high-performance camera"
+    },
+    {
+      "id": 2,
+      "name": "Laptop Pro",
+      "price": 1299.99,
+      "category": "Electronics",
+      "color": "Silver",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&auto=format",
+      "description": "Powerful laptop for professionals with high-end specifications"
+    },
+    {
+      "id": 3,
+      "name": "Wireless Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "color": "Blue",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format",
+      "description": "Premium noise-cancelling wireless headphones with superior sound quality"
+    },
+    {
+      "id": 4,
+      "name": "Smart Watch",
+      "price": 299.99,
+      "category": "Electronics",
+      "color": "Black",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&auto=format",
+      "description": "Feature-rich smartwatch with health monitoring and fitness tracking"
+    },
+    {
+      "id": 5,
+      "name": "Digital Camera",
+      "price": 799.99,
+      "category": "Electronics",
+      "color": "Black",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500&auto=format",
+      "description": "Professional-grade digital camera with 4K video capability"
+    },
+    {
+      "id": 6,
+      "name": "Gaming Console",
+      "price": 499.99,
+      "category": "Electronics",
+      "color": "White",
+      "image": "https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=500&auto=format",
+      "description": "Next-gen gaming console with stunning graphics and immersive gameplay"
+    },
+    {
+      "id": 7,
+      "name": "Tablet Pro",
+      "price": 599.99,
+      "category": "Electronics",
+      "color": "Space Gray",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&auto=format",
+      "description": "Versatile tablet perfect for work and entertainment"
+    },
+    {
+      "id": 8,
+      "name": "Wireless Earbuds",
+      "price": 149.99,
+      "category": "Electronics",
+      "color": "White",
+      "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=500&auto=format",
+      "description": "True wireless earbuds with premium sound and long battery life"
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": 4
+    }
+  ],
+  "cart": [],
+  "orders": []
+}

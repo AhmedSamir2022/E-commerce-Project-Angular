@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.common-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-input {
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding-left: 15px;
+  color: #333;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #6f42c1;
+  box-shadow: 0 0 0 2px rgba(111, 66, 193, 0.1);
+}
+
+.form-button {
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6f42c1;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #5a32a3;
+}
+
+.error-p {
+  color: #dc3545;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.message-p {
+  color: #28a745;
+  text-align: center;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.invalid-input {
+  color: #dc3545;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: #e0e0e0;
+  color: #666;
+}
+
+.max-width {
+  width: 100%;
+}
+
+/* Add smooth transitions */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Add box shadow to cards */
+.card {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Add hover effects */
+.hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
